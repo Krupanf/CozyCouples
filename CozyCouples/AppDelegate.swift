@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  CozyCouples
-//
-//  Created by Darshan on 26/01/26.
-//
 
 import UIKit
 
