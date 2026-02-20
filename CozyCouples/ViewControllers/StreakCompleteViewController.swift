@@ -28,8 +28,10 @@ class StreakCompleteViewController: UIViewController {
     }
     
     @IBAction func btnCommitedTapped(_ sender: Any) {
+        self.dismiss(animated: true)
     }
     
     @IBAction func btnBack(_ sender: UIButton) {
+        self.dismiss(animated: true)
     }
 }

@@ -8,13 +8,11 @@ class DoodelDrawViewController: UIViewController {
     @IBOutlet weak var txtMsg: UITextField!
     @IBOutlet weak var sendMSGBG: UIView!
     @IBOutlet weak var collectionCollection: UICollectionView!
-    
     @IBOutlet weak var viewDraw: UIView!
-    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var imgGlass: UIImageView!
-    
     @IBOutlet weak var doodleView: DoodleView!
+    
     var coupleId = ""
     let colorHexArray: [UIColor] = [
         UIColor(hex: "#FF6F61"),
@@ -41,7 +39,6 @@ class DoodelDrawViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         DispatchQueue.main.asyncAfter(wallDeadline: .now() + 0.1) {
-            [self]in
             self.viewDraw.layer.cornerRadius = 20
             self.sendMSGBG.layer.cornerRadius = self.sendMSGBG.frame.height / 2
             self.btnSendMsg.layer.cornerRadius = self.btnSendMsg.frame.height / 2
@@ -69,6 +66,7 @@ class DoodelDrawViewController: UIViewController {
     
     
     @IBAction func btnSendMsgAction(_ sender: UIButton) {
+        
     }
     
     @IBAction func backTapped(_ sender: Any) {

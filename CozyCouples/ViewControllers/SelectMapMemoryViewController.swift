@@ -36,6 +36,7 @@ class SelectMapMemoryViewController: UIViewController {
     
     
     @IBAction func btnBackAction(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func btnAddMemoryAction(_ sender: UIButton) {

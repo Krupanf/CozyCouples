@@ -60,9 +60,9 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func btnLetsDrawAction(_ sender: UIButton) {
-        let vc = DoodelDrawViewController()
-        vc.coupleId = self.coupleId
-        navigationController?.pushViewController(vc, animated: true)
+        let push = self.storyboard?.instantiateViewController(withIdentifier: "DoodelDrawViewController") as! DoodelDrawViewController
+        push.coupleId = self.coupleId
+        navigationController?.pushViewController(push, animated: true)
     }
     
     @IBAction func btngetStartedAction(_ sender: UIButton) {

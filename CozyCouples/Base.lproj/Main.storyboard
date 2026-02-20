@@ -8430,7 +8430,6 @@ jnkl</string>
                                         <state key="normal" image="icn_Back"/>
                                         <connections>
                                             <action selector="btnBackAction:" destination="b4I-P2-FNQ" eventType="touchUpInside" id="GpC-an-2KH"/>
-                                            <action selector="btnBackTapped:" destination="b4I-P2-FNQ" eventType="touchUpInside" id="NAY-OR-vWk"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -8892,7 +8891,7 @@ jnkl</string>
                         <outlet property="sendMSGBG" destination="Gd3-oJ-u6T" id="zdn-en-fmb"/>
                         <outlet property="tableView" destination="z7Y-Yf-GUh" id="VlN-p9-a1T"/>
                         <outlet property="txtMsg" destination="xzJ-Ke-ukW" id="2sd-kJ-nDN"/>
-                        <outlet property="viewDraw" destination="53p-5q-6lv" id="jJd-DJ-boF"/>
+                        <outlet property="viewDraw" destination="53p-5q-6lv" id="mLS-z4-XgM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="48X-Kd-qix" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

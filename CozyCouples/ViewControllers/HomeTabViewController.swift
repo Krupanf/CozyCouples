@@ -30,6 +30,8 @@ class HomeTabViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        hideall()
+        self.tabView1.isHidden = false
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -70,16 +72,16 @@ class HomeTabViewController: UIViewController {
     }
     
     @IBAction func btnTabAction(_ sender: UIButton) {
-        if sender.tag == 2
-        {
-            btnAdd.isHidden =  false
-            btnLocation.isHidden =  false
-        }else{
-            btnAdd.isHidden =  true
-            btnLocation.isHidden =  true
-        }
+//        if sender.tag == 2
+//        {
+//            btnAdd.isHidden =  false
+//            btnLocation.isHidden =  false
+//        }else{
+//            btnAdd.isHidden =  true
+//            btnLocation.isHidden =  true
+//        }
         
-        let selectedColor = UIColor(hex: "#FF3B9A")
+        let selectedColor = UIColor(hex: "#964EEF")
         let deselectedColor = UIColor(hex: "#FFFFFF").withAlphaComponent(0.3)
 
         let selectedImages = [
